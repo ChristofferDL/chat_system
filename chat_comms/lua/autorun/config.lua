@@ -62,31 +62,3 @@ Chats[4] = {
 		["Gangster"] = true,
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SCP.Config.DebugEnabled = false -- For use if errors occur with Chat Table.
-
-if SCP.Config.DebugEnabled then
-	for k,v in pairs(Chats) do
-		print(k,v["name"], v["color"], v["command"], v["jobs"])
-	end
-end
